@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <title>Publish</title>
+    </head>
+    <body>
+        <form method="POST">
+            <input class="title_input" name="title" type="text" placeholder="Title"> <br>
+            <input class="content_input" name="content" type="text" placeholder="Content"> <br>
+            <button class="publish_button" type="submit">PUBLISH</button>
+        </form>    
+    </body>
+</html>

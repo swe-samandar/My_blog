@@ -4,7 +4,7 @@ from slugify import slugify
 class Article:
     def __init__(self, title):
         self.title = title
-        self.load_content()
+        self.content = ""
 
     @property
     def slug(self):
